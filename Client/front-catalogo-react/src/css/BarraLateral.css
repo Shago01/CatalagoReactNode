@@ -1,0 +1,41 @@
+.barraLateral {
+  color: white;
+  width: 30%;
+  height: 100vh;
+  padding: 20px 0;
+  background: #013147;
+}
+.bl-head {
+  padding: 30px 20px;
+  gap: 20px;
+  display: flex;
+  border-bottom: 2px solid #01415f;
+  justify-content: center;
+  align-items: center;
+}
+.bl-body {
+  margin: 20px 0;
+  width: 100%;
+  border-bottom: 2px solid #01415f;
+}
+
+.bl-item {
+  transition: all ease-in-out 0.3s;
+  padding: 2px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bl-btn {
+  width: 70%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.bl-item:hover {
+  background: #039ff5;
+}

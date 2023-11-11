@@ -23,14 +23,16 @@ const getOneProduct = (req, res) => {
 
 const postNewProduct = (req, res) => {
   try {
+    console.log(req.body);
     const data = ControlProduct.postNewProduct({ ...req.body });
+
     res.status(301).json({
       status: "ok",
       message: data.message,
       data: data.productNew,
     });
   } catch (error) {
-    res.status(404).send({ error: error.message });
+    res.status(404).send({ error: " aca estoy: " + error.message });
   }
 };
 

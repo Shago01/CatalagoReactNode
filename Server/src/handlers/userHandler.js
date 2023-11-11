@@ -57,13 +57,10 @@ const putUpdateUser = (req, res) => {
 
 const postUserExistsInDB = (req, res) => {
   try {
-    const status = ControlUser.userExistsInDB(
-      req.body.usuario,
-      req.body.password
-    );
+    const status = ControlUser.userExistsInDB(req.body.user, req.body.password);
     res.status(200).send(status);
   } catch (error) {
-    res.status(404).send({ status: "err", error: error.message });
+    res.status(404).send({ error: error.message });
   }
 };
 

@@ -1,0 +1,44 @@
+.setionMain {
+  width: 70%;
+  max-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  width: 500px;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 7px;
+  margin: auto 20px;
+}
+.ctm-title {
+  color: #013147;
+  font-size: 4em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ctm-text {
+  text-align: start;
+  font-size: 1.3em;
+}
+.ctm-head {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: end;
+  background: white;
+  box-shadow: 0 0 10px #0000006b;
+}
+.ctm-head-log {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.ctm-head-title {
+  display: inline-block;
+}

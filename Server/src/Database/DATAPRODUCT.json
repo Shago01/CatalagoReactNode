@@ -7,6 +7,7 @@
       "categoria": "Consolas",
       "precio": 499.99,
       "marca": "Sony",
+      "img": "https://img.rtve.es/imagenes/precio-play-station-5/1591920226891.jpg",
       "resolucion": "4K",
       "peso": "4.5 kg"
     },
@@ -17,18 +18,9 @@
       "categoria": "Televisores",
       "precio": 699.99,
       "marca": "Samsung",
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/co/qn55q60bakxzl/gallery/co-qled-q60b-421608-qn55q60bakxzl-532053856?$650_519_PNG$",
       "resolucion": "4K",
       "peso": "18.7 kg"
-    },
-    {
-      "id": 3,
-      "name": "iPhone 13 Pro",
-      "description": "Smartphone de alta gama con cámara avanzada.",
-      "categoria": "Telefonos",
-      "precio": 999.99,
-      "marca": "Apple",
-      "resolucion": "Super Retina XDR",
-      "peso": "228 g"
     },
     {
       "id": 4,
@@ -37,6 +29,7 @@
       "categoria": "Laptops",
       "precio": 1299.99,
       "marca": "Dell",
+      "img": "https://i.blogs.es/73e35e/dell-xps-13-9300-4/1366_2000.jpg",
       "resolucion": "Full HD",
       "peso": "1.27 kg"
     },
@@ -47,6 +40,7 @@
       "categoria": "Consolas",
       "precio": 499.99,
       "marca": "Microsoft",
+      "img": "https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png",
       "resolucion": "4K",
       "peso": "4.4 kg"
     },
@@ -57,6 +51,7 @@
       "categoria": "Televisores",
       "precio": 1499.99,
       "marca": "LG",
+      "img": "https://www.lg.com/cac/images/televisores/md07528463/gallery/dm-01.jpg",
       "resolucion": "4K",
       "peso": "25.3 kg"
     },
@@ -67,6 +62,7 @@
       "categoria": "Telefonos",
       "precio": 799.99,
       "marca": "Samsung",
+      "img": "https://med.csmobiles.com/684557-large_default/samsung-galaxy-s21-fe-5g-g990-128gb-dual-sim-blanco.jpg",
       "resolucion": "Quad HD+",
       "peso": "171 g"
     },
@@ -77,6 +73,7 @@
       "categoria": "Laptops",
       "precio": 1399.99,
       "marca": "HP",
+      "img": "https://www.muycomputer.com/wp-content/uploads/2019/11/HPENVYWood_2.jpg",
       "resolucion": "4K",
       "peso": "1.34 kg"
     },
@@ -87,6 +84,7 @@
       "categoria": "Consolas",
       "precio": 299.99,
       "marca": "Nintendo",
+      "img": "https://eltiempo.revoou.com/wp-content/uploads/2023/03/1200px-Nintendo_Switch_gedockt-1024x585.jpg",
       "resolucion": "720p",
       "peso": "0.88 kg"
     },
@@ -97,6 +95,7 @@
       "categoria": "Televisores",
       "precio": 2999.99,
       "marca": "Sony",
+      "img": "https://es.digitaltrends.com/wp-content/uploads/2020/01/sony-65-inch-x950h-4k-hdr-led-tv-ces-2020.jpg?fit=720%2C480&p=1",
       "resolucion": "8K",
       "peso": "31.5 kg"
     },
@@ -107,6 +106,7 @@
       "categoria": "Telefonos",
       "precio": 699.99,
       "marca": "Google",
+      "img": "",
       "resolucion": "Full HD+",
       "peso": "207 g"
     },
@@ -117,6 +117,7 @@
       "categoria": "Laptops",
       "precio": 1299.99,
       "marca": "Apple",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00750304003935-1l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       "resolucion": "Retina",
       "peso": "1.29 kg"
     },
@@ -127,6 +128,7 @@
       "categoria": "Consolas",
       "precio": 299.99,
       "marca": "Sony",
+      "img": "https://pbs.twimg.com/media/DMBfknmV4AE39TK.jpg",
       "resolucion": "1080p",
       "peso": "2.75 kg"
     },
@@ -137,6 +139,7 @@
       "categoria": "Televisores",
       "precio": 599.99,
       "marca": "Sony",
+      "img": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/10/hipertextual-sony-xh90-televisor-4k-y-hdr-punto-mas-dulce-relacion-calidadprecio-2020454521-scaled.jpg?fit=2560%2C1707&quality=50&strip=all&ssl=1",
       "resolucion": "4K",
       "peso": "20.1 kg"
     },
@@ -147,6 +150,7 @@
       "categoria": "Telefonos",
       "precio": 799.99,
       "marca": "OnePlus",
+      "img": "https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9-pro/Morning%20mist-gallery.png",
       "resolucion": "Quad HD+",
       "peso": "197 g"
     },
@@ -157,6 +161,7 @@
       "categoria": "Laptops",
       "precio": 1699.99,
       "marca": "Lenovo",
+      "img": "https://www.tuexperto.com/wp-content/uploads/2020/10/a-fondo-lenovo-thinkpad-x1-carbon-gen8-01.jpg",
       "resolucion": "4K",
       "peso": "1.13 kg"
     },
@@ -167,6 +172,7 @@
       "categoria": "Consolas",
       "precio": 399.99,
       "marca": "Microsoft",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00019638817996-2l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       "resolucion": "4K",
       "peso": "4.43 kg"
     },
@@ -177,6 +183,7 @@
       "categoria": "Televisores",
       "precio": 199.99,
       "marca": "LG",
+      "img": "https://www.lg.com/ar/images/televisores/md05781010/gallery/medium07.jpg",
       "resolucion": "HD",
       "peso": "4.56 kg"
     },
@@ -187,6 +194,7 @@
       "categoria": "Telefonos",
       "precio": 399.99,
       "marca": "Google",
+      "img": "https://www.proandroid.com/wp-content/uploads/2020/10/google-pixel-5-cover2.jpg",
       "resolucion": "Full HD+",
       "peso": "190 g"
     },
@@ -197,6 +205,7 @@
       "categoria": "Laptops",
       "precio": 1299.99,
       "marca": "Asus",
+      "img": "https://dlcdnwebimgs.asus.com/files/media/59679AA3-66F7-4DBB-BA4C-1A13376F5B4C/v1/images/large/1x/carousel_4_1.png",
       "resolucion": "WQHD",
       "peso": "1.7 kg"
     },
@@ -207,6 +216,7 @@
       "categoria": "Consolas",
       "precio": 199.99,
       "marca": "Nintendo",
+      "img": "https://thumbs.dreamstime.com/b/nintendo-switch-sobre-fondo-blanco-primer-plano-de-consola-videojuegos-port%C3%A1til-rostovondon-rusia-abril-218557839.jpg",
       "resolucion": "720p",
       "peso": "0.61 kg"
     },
@@ -217,6 +227,7 @@
       "categoria": "Televisores",
       "precio": 499.99,
       "marca": "Sony",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00454873613661l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       "resolucion": "4K",
       "peso": "12.4 kg"
     },
@@ -227,6 +238,7 @@
       "categoria": "Telefonos",
       "precio": 699.99,
       "marca": "OnePlus",
+      "img": "https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9/Wintermist_2080a_euna.png",
       "resolucion": "Full HD+",
       "peso": "192 g"
     },
@@ -237,6 +249,7 @@
       "categoria": "Laptops",
       "precio": 899.99,
       "marca": "HP",
+      "img": "https://laptopmedia.com/wp-content/uploads/2023/06/81G1gGLe3JL._AC_SL1500_.jpg",
       "resolucion": "Full HD",
       "peso": "1.3 kg"
     },
@@ -247,6 +260,7 @@
       "categoria": "Consolas",
       "precio": 199.99,
       "marca": "Nintendo",
+      "img": "https://live.mrf.io/statics/i/ps/www.muycomputer.com/wp-content/uploads/2014/08/New-Nintendo-3DS-MC.jpg?width=1200&enable=upscale",
       "resolucion": "3D",
       "peso": "336 g"
     },
@@ -257,6 +271,7 @@
       "categoria": "Televisores",
       "precio": 349.99,
       "marca": "Sony",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00454873609750l.jpg",
       "resolucion": "Full HD",
       "peso": "15.2 kg"
     },
@@ -267,6 +282,7 @@
       "categoria": "Telefonos",
       "precio": 249.99,
       "marca": "Motorola",
+      "img": "https://m.media-amazon.com/images/I/51o+gq+Nj6L._AC_UF894,1000_QL80_.jpg",
       "resolucion": "Full HD+",
       "peso": "199 g"
     },
@@ -277,6 +293,7 @@
       "categoria": "Laptops",
       "precio": 399.99,
       "marca": "Lenovo",
+      "img": "https://www.lenovo.com/medias/lenovo-laptop-ideapad-3i-15in-hero.png?context=bWFzdGVyfHJvb3R8MzM3NTg5fGltYWdlL3BuZ3xoM2MvaDExLzE0MTkxNTE3NDAxMTE4LnBuZ3w4OTg2YTg5YzQ0ZmFiZDYzOTdjZTkzNDJjNDY3MTJlODM4YTQ2ODdlMGVmZTFlYjBiODRjYWFmY2JjOTBkODNj",
       "resolucion": "Full HD",
       "peso": "1.85 kg"
     },
@@ -287,6 +304,7 @@
       "categoria": "Consolas",
       "precio": 199.99,
       "marca": "Sony",
+      "img": "https://www.muycomputer.com/wp-content/uploads/2017/03/PS3.jpg",
       "resolucion": "1080p",
       "peso": "5.5 kg"
     },
@@ -297,6 +315,7 @@
       "categoria": "Televisores",
       "precio": 549.99,
       "marca": "TCL",
+      "img": "",
       "resolucion": "4K",
       "peso": "21.6 kg"
     },
@@ -307,6 +326,7 @@
       "categoria": "Telefonos",
       "precio": 349.99,
       "marca": "Google",
+      "img": "https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/3477946.jpg?scale=500&qlty=75",
       "resolucion": "Full HD+",
       "peso": "143 g"
     },
@@ -317,6 +337,7 @@
       "categoria": "Laptops",
       "precio": 499.99,
       "marca": "Acer",
+      "img": "",
       "resolucion": "Full HD",
       "peso": "1.7 kg"
     },
@@ -327,6 +348,7 @@
       "categoria": "Consolas",
       "precio": 299.99,
       "marca": "Nintendo",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/8/83/Wii_console.png",
       "resolucion": "1080p",
       "peso": "2.2 kg"
     },
@@ -337,6 +359,7 @@
       "categoria": "Televisores",
       "precio": 249.99,
       "marca": "Sony",
+      "img": "https://carulla.vtexassets.com/arquivos/ids/10742102/televisor-led-sony-32-pulgadas-modelo-kdl-32r507c-hd.jpg?v=638134585896070000",
       "resolucion": "HD",
       "peso": "6.9 kg"
     },
@@ -347,6 +370,7 @@
       "categoria": "Telefonos",
       "precio": 149.99,
       "marca": "Motorola",
+      "img": "https://i.blogs.es/16a5f6/moto-e-2020/1366_2000.jpg",
       "resolucion": "HD+",
       "peso": "185 g"
     },
@@ -357,6 +381,7 @@
       "categoria": "Laptops",
       "precio": 499.99,
       "marca": "Dell",
+      "img": "https://www.unimart.com/cdn/shop/products/20-2_1_4c2ef942-e1e5-4892-95f7-97f1566ff02e.jpg?v=1673558131",
       "resolucion": "Full HD",
       "peso": "2.2 kg"
     },
@@ -367,6 +392,7 @@
       "categoria": "Consolas",
       "precio": 99.99,
       "marca": "Sony",
+      "img": "https://static.wikia.nocookie.net/medalladehonor/images/4/45/PS2.png/revision/latest?cb=20100128005437",
       "resolucion": "480p",
       "peso": "2.1 kg"
     },
@@ -377,6 +403,7 @@
       "categoria": "Televisores",
       "precio": 199.99,
       "marca": "Samsung",
+      "img": "https://images.samsung.com/is/image/samsung/co-hd-t4300-un32t4300akxzl-frontblack-237576094?$650_519_PNG$",
       "resolucion": "HD",
       "peso": "5.2 kg"
     },
@@ -387,6 +414,7 @@
       "categoria": "Telefonos",
       "precio": 399.99,
       "marca": "OnePlus",
+      "img": "",
       "resolucion": "Full HD+",
       "peso": "184 g"
     },
@@ -397,6 +425,7 @@
       "categoria": "Laptops",
       "precio": 599.99,
       "marca": "HP",
+      "img": "https://www.notebookcheck.org/fileadmin/Notebooks/HP/Pavilion_x360_14-cd0002ng/HP_Pavilion_x360_14_cd0000ng_001.jpg",
       "resolucion": "Full HD",
       "peso": "1.7 kg"
     },
@@ -407,6 +436,7 @@
       "categoria": "Consolas",
       "precio": 79.99,
       "marca": "Nintendo",
+      "img": "https://assets.stickpng.com/images/5a6a3c21ab538104d4a30e30.png",
       "resolucion": "240p",
       "peso": "140 g"
     },
@@ -417,6 +447,7 @@
       "categoria": "Televisores",
       "precio": 299.99,
       "marca": "LG",
+      "img": "https://www.lg.com/cac/images/televisores/md07573541/gallery/D-2.jpg",
       "resolucion": "Full HD",
       "peso": "8.5 kg"
     },
@@ -427,6 +458,7 @@
       "categoria": "Telefonos",
       "precio": 349.99,
       "marca": "Samsung",
+      "img": "https://www.muycomputer.com/wp-content/uploads/2021/02/Samsung-Galaxy-A52-5G-White-e1613463206458.jpg",
       "resolucion": "Full HD+",
       "peso": "189 g"
     },
@@ -437,6 +469,7 @@
       "categoria": "Laptops",
       "precio": 1299.99,
       "marca": "Acer",
+      "img": "https://laptopmedia.com/wp-content/uploads/2021/10/2-11-e1633931702909.jpg",
       "resolucion": "Full HD",
       "peso": "2.5 kg"
     },
@@ -447,6 +480,7 @@
       "categoria": "Consolas",
       "precio": 199.99,
       "marca": "Microsoft",
+      "img": "https://i.pinimg.com/originals/96/4b/a6/964ba6f4c3bdd4df5b2422e68516f906.jpg",
       "resolucion": "1080p",
       "peso": "3.5 kg"
     },
@@ -457,6 +491,7 @@
       "categoria": "Televisores",
       "precio": 799.99,
       "marca": "Sony",
+      "img": "https://cosonyb2c.vtexassets.com/arquivos/ids/356733/Sony_X80K_55pulgadas_MX_1000x1000px_01_ImagenPrincipal_C.jpg?v=1781169634",
       "resolucion": "4K",
       "peso": "17.8 kg"
     },
@@ -467,6 +502,7 @@
       "categoria": "Telefonos",
       "precio": 299.99,
       "marca": "Google",
+      "img": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/05/17130349/Google-Pixel-3a1.jpg",
       "resolucion": "Full HD+",
       "peso": "147 g"
     },
@@ -477,6 +513,7 @@
       "categoria": "Laptops",
       "precio": 1199.99,
       "marca": "Lenovo",
+      "img": "https://www.notebookcheck.org/fileadmin/Notebooks/Lenovo/ThinkPad_T14-20S1S06B00/teaser1.jpg",
       "resolucion": "Full HD",
       "peso": "1.47 kg"
     },
@@ -487,6 +524,7 @@
       "categoria": "Consolas",
       "precio": 149.99,
       "marca": "Nintendo",
+      "img": "https://thumbs.dreamstime.com/b/el-gamecube-hecho-por-nintendo-114898652.jpg",
       "resolucion": "480p",
       "peso": "2.2 kg"
     },
@@ -497,6 +535,7 @@
       "categoria": "Televisores",
       "precio": 1999.99,
       "marca": "Sony",
+      "img": "https://exitocol.vtexassets.com/arquivos/ids/16845803/televisor-sony-75-pulgadas-smart-tv-4k-ultra-hd-kd-75x80j-google-tv.jpg?v=638140826673370000",
       "resolucion": "4K",
       "peso": "29.6 kg"
     }

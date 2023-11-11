@@ -43,6 +43,7 @@ const postNewProduct = (data) => {
 
     return status;
   } catch (error) {
+    console.log(error);
     throw error;
   }
 };
@@ -55,7 +56,6 @@ const putUdateProduct = (id, product) => {
     );
 
     if (!(postionProduct > -1)) throw Error("El producto no exite");
-    if (nameProduct > -1) throw Error("El nombre de Producto ya Existe");
 
     const [productprevious] = DATAPRODUCT.products.splice(postionProduct, 1);
     const productnext = { ...productprevious, ...product };
@@ -80,13 +80,21 @@ const putUdateProduct = (id, product) => {
 };
 
 const deleteProduct = (id) => {
+  console.log("el id product", id);
   try {
     const DB = DATAPRODUCT;
     const postionProduct = DB.products.findIndex((e) => id == e.id);
+    console.log(postionProduct);
     if (!(postionProduct > -1)) throw Error("El producto no exite");
 
     const [productDelete] = DB.products.splice(postionProduct, 1);
-    deleteProductOffer(id);
+
+    try {
+      deleteProductOffer(id);
+    } catch (error) {
+      console.log("Err: ", error.message);
+    }
+
     /**
      *
      * implementar la función saveDB
