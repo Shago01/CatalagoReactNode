@@ -6,13 +6,17 @@ function ShearchSection({ datos, setActive, keyData, setObj, setElement }) {
   const [searchText, setSearchText] = useState("");
   const [categoria, setCategoria] = useState("");
 
-  const listCategorias = datos[0]?.categoria
-    ? Array.from(new Set(datos.map((producto) => producto.categoria)))
-    : null;
-
+  let listCategorias;
+  if (datos) {
+    listCategorias = Array.from(
+      new Set(datos.map((producto) => producto.categoria))
+    );
+  }
   useEffect(() => {
-    const filteredData = filterData(datos, searchText, categoria);
-    setElement(filteredData);
+    if (datos) {
+      const filteredData = filterData(datos, searchText, categoria);
+      setElement(filteredData);
+    }
   }, [datos, searchText, categoria]);
 
   const comboBox = listCategorias ? (

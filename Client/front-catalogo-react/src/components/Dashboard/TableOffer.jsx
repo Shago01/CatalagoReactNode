@@ -21,15 +21,15 @@ function TableOffer({ data }) {
     return (
       <tr key={product.id} className="t-row">
         <td className="t-colum"> {cont++} </td>
-        <td className="t-colum"> {product.name} </td>
-        <td className="t-colum"> {product.marca} </td>
-        <td className="t-colum"> {product.categoria} </td>
-        <td className="t-colum"> 💲 {product.precio} </td>
-        <td className="t-colum"> {product.offer} % </td>
+        <td className="t-colum"> {product?.name} </td>
+        <td className="t-colum"> {product?.marca} </td>
+        <td className="t-colum"> {product?.categoria} </td>
+        <td className="t-colum"> 💲 {product?.precio} </td>
+        <td className="t-colum"> {product?.offer} % </td>
         <td className="t-colum t-col-btn">
           <Boton
             handleClick={() => {
-              handleDelete(product.id);
+              handleDelete(product?.id);
             }}
             className={"t-btn t-btn-del"}
           >

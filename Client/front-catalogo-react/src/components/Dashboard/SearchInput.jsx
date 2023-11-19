@@ -8,7 +8,7 @@ function SearchInput({ value, onChange }) {
         onChange={(e) => onChange(e.target.value)}
         placeholder="Buscar..."
       />
-      <label style={{ fontSize: "1.3em" }}>🔎</label>
+      <label style={{ fontSize: "1.3em" }}></label>
     </>
   );
 }

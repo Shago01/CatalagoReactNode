@@ -106,7 +106,7 @@
       "categoria": "Telefonos",
       "precio": 699.99,
       "marca": "Google",
-      "img": "",
+      "img": "https://img.freepik.com/fotos-premium/isolado-google-pixel-6-pro-mobile-side-view-haciendo-hincapie-limpieza-fondo-blanco-limpio_655090-799460.jpg",
       "resolucion": "Full HD+",
       "peso": "207 g"
     },
@@ -117,7 +117,7 @@
       "categoria": "Laptops",
       "precio": 1299.99,
       "marca": "Apple",
-      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00750304003935-1l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "img": "https://tiendasishop.com/media/catalog/product/m/n/mnep3e_a_2.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700",
       "resolucion": "Retina",
       "peso": "1.29 kg"
     },
@@ -315,7 +315,7 @@
       "categoria": "Televisores",
       "precio": 549.99,
       "marca": "TCL",
-      "img": "",
+      "img": "https://electroomega.com.do/wp-content/uploads/2022/06/Televisor-TCL-65C725.jpg",
       "resolucion": "4K",
       "peso": "21.6 kg"
     },
@@ -326,7 +326,7 @@
       "categoria": "Telefonos",
       "precio": 349.99,
       "marca": "Google",
-      "img": "https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/3477946.jpg?scale=500&qlty=75",
+      "img": "https://estaticos-cdn.elperiodico.com/clip/478bd832-3db0-414f-8e16-1420949e8c00_alta-libre-aspect-ratio_default_0.jpg",
       "resolucion": "Full HD+",
       "peso": "143 g"
     },
@@ -337,7 +337,7 @@
       "categoria": "Laptops",
       "precio": 499.99,
       "marca": "Acer",
-      "img": "",
+      "img": "https://www.gamerscolombia.com/img/products/Porttil-ACER-Nitro-5-AN515-Core-i5-10300H-RAM-8GB-SSD-512GB-RTX-1650-4GB-156-FHD-144Hz-WIN-10-HOME/ACER-Nitro-5-AN515-55-51PA16560189242.png",
       "resolucion": "Full HD",
       "peso": "1.7 kg"
     },
@@ -392,7 +392,7 @@
       "categoria": "Consolas",
       "precio": 99.99,
       "marca": "Sony",
-      "img": "https://static.wikia.nocookie.net/medalladehonor/images/4/45/PS2.png/revision/latest?cb=20100128005437",
+      "img": "https://www.comolohago.cl/wp-content/uploads/2009/02/Untitled-25.jpg",
       "resolucion": "480p",
       "peso": "2.1 kg"
     },
@@ -414,7 +414,7 @@
       "categoria": "Telefonos",
       "precio": 399.99,
       "marca": "OnePlus",
-      "img": "",
+      "img": "https://oasis.opstatics.com/content/dam/oasis/page/2021/ebba/spec/Blue-Void.png",
       "resolucion": "Full HD+",
       "peso": "184 g"
     },
@@ -436,7 +436,7 @@
       "categoria": "Consolas",
       "precio": 79.99,
       "marca": "Nintendo",
-      "img": "https://assets.stickpng.com/images/5a6a3c21ab538104d4a30e30.png",
+      "img": "https://m.media-amazon.com/images/I/71UYlyoGVvL.jpg",
       "resolucion": "240p",
       "peso": "140 g"
     },

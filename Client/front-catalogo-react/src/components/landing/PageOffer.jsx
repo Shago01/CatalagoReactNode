@@ -4,19 +4,19 @@ import { traerOfferts } from "../../utils/utils";
 import Carousel from "./Carosel";
 
 function PageOffer() {
-  const [dataOffer, setDataOffer] = useState([]);
   const [cards, setCards] = useState(null);
 
   useEffect(() => {
-    traerOfferts().then((data) => {
-      setDataOffer(data);
-    });
+    (async () => {
+      const data = await traerOfferts();
+      if (data) {
+        const cardComponets = <Carousel data={data} cont={data.length} />;
+        setCards(cardComponets);
+      } else {
+        alert("no hay offertas");
+      }
+    })();
   }, []);
-
-  useEffect(() => {
-    const cardComponets = <Carousel data={dataOffer} />;
-    setCards(cardComponets);
-  }, [dataOffer]);
 
   return (
     <>
@@ -48,7 +48,7 @@ function PageOffer() {
           </div>
         </div>
       </div>
-      <div className="sectionCards">{cards}</div>;
+      <div className="sectionCarousel">{cards}</div>;
     </>
   );
 }

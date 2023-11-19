@@ -1,9 +1,18 @@
-function Card({ data }) {
+function Card({ data, className, handleClikc }) {
   const miData = data;
 
   return (
-    <div className="card">
-      {data?.offer && <div className="card-offer"> {data.offer}% </div>}
+    <div
+      className="card"
+      onClick={() => {
+        handleClikc([data]);
+      }}
+    >
+      {data?.offer ? (
+        <div className="card-offer"> {data.offer}% </div>
+      ) : (
+        className && <div className={className}> new</div>
+      )}
       <div className="card-container-img">
         <img src={miData?.img} alt={miData?.name} className="card-img" />
       </div>
@@ -28,7 +37,13 @@ function Card({ data }) {
           <i className="fa-solid fa-weight-hanging"></i>
           <span> {miData.peso} </span>
         </div>
+
+        <div className="card-caracteristica-item">
+          <i className="fa-solid fa-tarp"></i>
+          <span> {miData.marca} </span>
+        </div>
       </div>
+
       <div className="card-menssage">
         <p className="card-description">{miData?.description}</p>
       </div>
